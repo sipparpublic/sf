@@ -1,0 +1,169 @@
+{
+  "theme": "modern",
+  "intro": {
+    "slogan": "لقد اخترت اختياراً رائعاً",
+    "translations": {
+      "en": { "slogan": "You made a great choice" },
+      "ku": { "slogan": "هەڵبژاردنێکی باش کرد" },
+      "fa": { "slogan": "انتخاب عالی کردید" }
+    }
+  },
+  "restaurant": {
+    "name": "اسم المطعم",
+    "tagline": "أشهى الوجبات وأطيب المأكولات",
+    "address": "المدينة - المنطقة - الشارع",
+    "hours": "مفتوح يومياً",
+    "footer": "الأسعار قابلة للتغيير.",
+    "logo": "/logo.png",
+    "phone": ["07XX XXX XXXX"],
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "locations": [
+      { "name": "الفرع الرئيسي", "lat": 0.0, "lng": 0.0 }
+    ],
+    "translations": {
+      "en": { "name": "Restaurant Name", "tagline": "Delicious meals and finest food", "address": "City - District - Street", "hours": "Open daily", "footer": "Prices are subject to change." },
+      "ku": { "name": "ناوی چێشتخانە", "tagline": "خواردنی خۆشترینەکان", "address": "شار - ناوچە - شەقام", "hours": "هەموو ڕۆژ کراوە", "footer": "نرخەکان دەکرێت بگۆڕدرێن." },
+      "fa": { "name": "نام رستوران", "tagline": "غذاهای خوشمزه و لذیذترین", "address": "شهر - منطقه - خیابان", "hours": "هر روز باز است", "footer": "قیمت‌ها قابل تغییر هستند." }
+    }
+  },
+  "menu": [
+    {
+      "id": "pizza",
+      "name": "بيتزا",
+      "description": "تشكيلة من البيتزا المميزة بعجينتنا الخاصة",
+      "translations": {
+        "en": { "name": "Pizza", "description": "A selection of premium pizzas with our signature dough" },
+        "ku": { "name": "پیتزا", "description": "کۆمەڵێک پیتزای نایاب بە هەویری تایبەتمان" },
+        "fa": { "name": "پیتزا", "description": "مجموعه‌ای از پیتزاهای ممتاز با خمیر مخصوص ما" }
+      },
+      "items": [
+        { "id": "item_1", "name": "بيتزا فاخرة", "description": "بيتزا المطعم المميزة", "price": 15000, "translations": { "en": { "name": "Signature Pizza", "description": "Our signature pizza" }, "ku": { "name": "پیتزای تایبەت", "description": "پیتزای تایبەتمان" }, "fa": { "name": "پیتزای ویژه", "description": "پیتزای ویژه رستوران ما" } } },
+        { "id": "item_2", "name": "بيتزا لحم", "description": "شرائح لحم بقري مع جبن الموزاريلا", "price": 12000, "translations": { "en": { "name": "Beef Pizza", "description": "Beef slices with mozzarella cheese" }, "ku": { "name": "پیتza گۆشت", "description": "پارچەکانی گۆشت لەگەڵ پەنێری مۆزاریلا" }, "fa": { "name": "پیتزا گوشت", "description": "ورقه‌های گوشت گوساله با پنیر موزارلا" } } },
+        { "id": "item_3", "name": "بيتزا دجاج", "description": "قطع دجاج بصلصة الكريمة", "price": 13000, "translations": { "en": { "name": "Chicken Pizza", "description": "Chicken pieces with cream sauce" }, "ku": { "name": "پیتزا مریشک", "description": "پارچەکانی مریشک بە سۆسی کرێم" }, "fa": { "name": "پیتزا مرغ", "description": "تکه‌های مرغ با سس خامه" } } },
+        { "id": "item_4", "name": "بيتزا خضار", "description": "خضروات طازجة مع الجبن", "price": 11000, "translations": { "en": { "name": "Vegetable Pizza", "description": "Fresh vegetables with cheese" }, "ku": { "name": "پیتزا سەوزەوات", "description": "سەوزەواتی تازە لەگەڵ پەنێر" }, "fa": { "name": "پیتزا سبزیجات", "description": "سبزیجات تازه با پنیر" } } },
+        { "id": "item_5", "name": "بيتزا نوتيلا", "description": "بيتزا حلوة بصلصة شوكولاتة نوتيلا", "price": 9000, "translations": { "en": { "name": "Nutella Pizza", "description": "Sweet pizza with Nutella chocolate" }, "ku": { "name": "پیتزا نۆتێلا", "description": "پیتزای شیرین بە سۆسی شوکولاتەی نۆتێلا" }, "fa": { "name": "پیتزا نوتلا", "description": "پیتزای شیرین با روکش شکلات نوتلا" } } }
+      ]
+    },
+    {
+      "id": "manakish",
+      "name": "مناقيش",
+      "description": "معجنات طازجة مخبوزة على الحجر",
+      "translations": {
+        "en": { "name": "Manakish", "description": "Fresh stone-baked pastries" },
+        "ku": { "name": "مناقيش", "description": "هەویرکاری تازە لەسەر بەرد برژاو" },
+        "fa": { "name": "مناقیش", "description": "نان‌های سنتی تازه پخته شده روی سنگ" }
+      },
+      "items": [
+        { "id": "item_1", "name": "زعتر", "description": "منقوشة بالزعتر البلدي", "price": 4000, "translations": { "en": { "name": "Zaatar", "description": "Manakish with traditional zaatar" }, "ku": { "name": "زەعتر", "description": "مەناقیش بە زەعتەری خۆماڵی" }, "fa": { "name": "زعتر", "description": "مناقیش با زعتر سنتی" } } },
+        { "id": "item_2", "name": "جبنة", "description": "منقوشة بالجبن الذائب", "price": 4000, "translations": { "en": { "name": "Cheese", "description": "Manakish with melted cheese" }, "ku": { "name": "پەنێر", "description": "مەناقیش بە پەنێری تواوە" }, "fa": { "name": "پنیر", "description": "مناقیش با پنیر ذوب شده" } } },
+        { "id": "item_3", "name": "لحم", "description": "منقوشة بلحم مفروم متبل", "price": 5000, "translations": { "en": { "name": "Meat", "description": "Manakish with seasoned minced meat" }, "ku": { "name": "گۆشت", "description": "مەناقیش بە گۆشتی قیمەکراوی بەهاراتکراو" }, "fa": { "name": "گوشت", "description": "مناقیش با گوشت چرخ‌کرده طعم‌دار" } } },
+        { "id": "item_4", "name": "كفتة", "description": "منقوشة بكفتة متبلة", "price": 5000, "translations": { "en": { "name": "Kofta", "description": "Manakish with seasoned kofta" }, "ku": { "name": "کفتە", "description": "مەناقیش بە کفتەی بەهاراتکراو" }, "fa": { "name": "کفته", "description": "مناقیش با کفته طعم‌دار" } } },
+        { "id": "item_5", "name": "جبنة و لحم", "description": "منقوشة بالجبن واللحم", "price": 6000, "translations": { "en": { "name": "Cheese & Meat", "description": "Manakish with cheese and meat" }, "ku": { "name": "پەنێر و گۆشت", "description": "مەناقیش بە پەنێر و گۆشت" }, "fa": { "name": "پنیر و گوشت", "description": "مناقیش با پنیر و گوشت" } } }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "دجاج",
+      "description": "أطباق وسندويشات الدجاج الشهية",
+      "translations": {
+        "en": { "name": "Chicken", "description": "Delicious chicken dishes and sandwiches" },
+        "ku": { "name": "مریشک", "description": "خواردن و ساندویچە خۆشەکانی مریشک" },
+        "fa": { "name": "مرغ", "description": "غذاها و ساندویچ‌های لذیذ مرغ" }
+      },
+      "items": [
+        { "id": "item_1", "name": "تشكن بركر", "price": 5500, "translations": { "en": { "name": "Chicken Burger" }, "ku": { "name": "مریشک بەرگەر" }, "fa": { "name": "چیکن برگر" } } },
+        { "id": "item_2", "name": "شيش طاووق", "price": 5000, "translations": { "en": { "name": "Shish Taouk" }, "ku": { "name": "شیش تاووق" }, "fa": { "name": "شیش طاووق" } } },
+        { "id": "item_3", "name": "سكالوب", "price": 5500, "translations": { "en": { "name": "Escalope" }, "ku": { "name": "سکالۆب" }, "fa": { "name": "اسکالوپ" } } },
+        { "id": "item_4", "name": "فاهيتا", "price": 4000, "translations": { "en": { "name": "Fajita" }, "ku": { "name": "فاهیتا" }, "fa": { "name": "فاهیتا" } } },
+        { "id": "item_5", "name": "ريزو", "price": 6000, "translations": { "en": { "name": "Rizo" }, "ku": { "name": "ڕیزۆ" }, "fa": { "name": "ریزو" } } }
+      ]
+    },
+    {
+      "id": "snacks_and_fries",
+      "name": "مقرمشات",
+      "description": "وجبات مقرمشة ومقبلات ساخنة جانبية",
+      "translations": {
+        "en": { "name": "Snacks & Fries", "description": "Crispy bites and hot side dishes" },
+        "ku": { "name": "موقەرمەشات", "description": "خواردنی کرسپی و تشتێن تەنیشتێ گەرم" },
+        "fa": { "name": "پیش‌غذاهای ترد", "description": "لقمه‌های ترد و دورچین‌های داغ" }
+      },
+      "items": [
+        { "id": "item_1", "name": "فرايز", "price": 3000, "translations": { "en": { "name": "Fries" }, "ku": { "name": "فرایز" }, "fa": { "name": "سیب زمینی سرخ کرده" } } },
+        { "id": "item_2", "name": "فرايز بالجبن", "price": 4000, "translations": { "en": { "name": "Cheese Fries" }, "ku": { "name": "فرایز بە پەنێر" }, "fa": { "name": "سیب زمینی با پنیر" } } },
+        { "id": "item_3", "name": "ودجز", "price": 3000, "translations": { "en": { "name": "Wedges" }, "ku": { "name": "وەدجز" }, "fa": { "name": "سیب زمینی تنوری" } } },
+        { "id": "item_4", "name": "حلقات بصل", "price": 3000, "translations": { "en": { "name": "Onion Rings" }, "ku": { "name": "حەڵقەی پیاز" }, "fa": { "name": "پیاز سوخاری" } } },
+        { "id": "item_5", "name": "دنابيس", "price": 7000, "translations": { "en": { "name": "Drumsticks" }, "ku": { "name": "دەنابیس" }, "fa": { "name": "پاچین" } } }
+      ]
+    },
+    {
+      "id": "wings",
+      "name": "اجنحة",
+      "description": "أجنحة دجاج بنكهات مختلفة ولذيذة",
+      "translations": {
+        "en": { "name": "Wings", "description": "Chicken wings with various delicious flavors" },
+        "ku": { "name": "باڵەکان", "description": "باڵی مریشک بە تامە جیاواز و بەتامەکان" },
+        "fa": { "name": "بال‌ها", "description": "بال مرغ با طعم‌های مختلف و لذیذ" }
+      },
+      "items": [
+        { "id": "item_1", "name": "باربيكيو", "price": 6000, "translations": { "en": { "name": "BBQ" }, "ku": { "name": "باربیکیو" }, "fa": { "name": "باربیکیو" } } },
+        { "id": "item_2", "name": "بافالو", "price": 6000, "translations": { "en": { "name": "Buffalo" }, "ku": { "name": "بافالۆ" }, "fa": { "name": "بافالو" } } },
+        { "id": "item_3", "name": "ليمون وثوم", "price": 6000, "translations": { "en": { "name": "Lemon & Garlic" }, "ku": { "name": "لیمۆ و سیر" }, "fa": { "name": "لیمو و سیر" } } },
+        { "id": "item_4", "name": "هني ماسترد", "price": 6000, "translations": { "en": { "name": "Honey Mustard" }, "ku": { "name": "هەنگوین و خەردەل" }, "fa": { "name": "خردل عسلی" } } }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "name": "مقبلات",
+      "description": "سلطات ومقبلات باردة",
+      "translations": {
+        "en": { "name": "Appetizers", "description": "Salads and cold appetizers" },
+        "ku": { "name": "موقەبێلات", "description": "زەڵاتە و پێش‌خواردنە ساردەکان" },
+        "fa": { "name": "پیش‌غذا", "description": "سالادها و پیش‌غذاهای سرد" }
+      },
+      "items": [
+        { "id": "item_1", "name": "ماعون صغير", "price": 2000, "translations": { "en": { "name": "Small Plate" }, "ku": { "name": "قاپێکی بچووک" }, "fa": { "name": "بشقاب کوچک" } } },
+        { "id": "item_2", "name": "اورديف وسط", "price": 5000, "translations": { "en": { "name": "Medium Hors d'oeuvres" }, "ku": { "name": "ئۆردێڤی ناوەند" }, "fa": { "name": "اردور متوسط" } } },
+        { "id": "item_3", "name": "اورديف كبير", "price": 7000, "translations": { "en": { "name": "Large Hors d'oeuvres" }, "ku": { "name": "ئۆردێڤی گەورە" }, "fa": { "name": "اردور بزرگ" } } }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "مشروبات",
+      "description": "مشروبات غازية وساخنة",
+      "translations": {
+        "en": { "name": "Drinks", "description": "Soft and hot drinks" },
+        "ku": { "name": "خواردنەوەکان", "description": "خواردنەوە گازی و گەرمەکان" },
+        "fa": { "name": "نوشیدنی‌ها", "description": "نوشیدنی‌های گازدار و گرم" }
+      },
+      "items": [
+        { "id": "item_1", "name": "بيبسي ، سفن ، ميرندا", "price": 1000, "translations": { "en": { "name": "Pepsi, Seven Up, Miranda" }, "ku": { "name": "پێپسی، سەڤن ئەپ، میرندا" }, "fa": { "name": "پپسی، سون آپ، میرندا" } } },
+        { "id": "item_2", "name": "شاي", "price": 500, "translations": { "en": { "name": "Tea" }, "ku": { "name": "چای" }, "fa": { "name": "چای" } } },
+        { "id": "item_3", "name": "شاي حليب", "price": 1000, "translations": { "en": { "name": "Milk Tea" }, "ku": { "name": "چای شیر" }, "fa": { "name": "چای شیر" } } },
+        { "id": "item_4", "name": "قهوة", "price": 2000, "translations": { "en": { "name": "Coffee" }, "ku": { "name": "قاوە" }, "fa": { "name": "قهوه" } } }
+      ]
+    },
+    {
+      "id": "burgers_and_sandwiches",
+      "name": "البرجرات والسندويشات",
+      "description": "تشكيلة واسعة من البرجرات الفاخرة اللذيذة",
+      "translations": {
+        "en": { "name": "Burgers & Sandwiches", "description": "A wide variety of premium delicious burgers" },
+        "ku": { "name": "بەرگەر و ساندویچەکان", "description": "کۆمەڵێک بەرگەری نایاب و بەتام" },
+        "fa": { "name": "برگرها و ساندویچ‌ها", "description": "طیف وسیعی از برگرهای ممتاز و لذیذ" }
+      },
+      "items": [
+        { "id": "item_1", "name": "كلاسك", "price": 6000, "description": "100 غرام لحم، بطاطا مبروشة، صلصة خاصة", "translations": { "en": { "name": "Classic", "description": "100g beef, shredded potatoes, special sauce" }, "ku": { "name": "کلاسیك", "description": "١٠٠ غرام گۆشت، پەتاتەی ڕندەکراو، سۆسی تایبەتی" }, "fa": { "name": "کلاسیک", "description": "۱۰۰ گرم گوشت، سیب زمینی رنده شده، سس مخصوص" } } },
+        { "id": "item_2", "name": "تشيز", "price": 6500, "description": "100 غرام لحم، جبن شدر، بطاطا مبروشة", "translations": { "en": { "name": "Cheese", "description": "100g beef, cheddar cheese, shredded potatoes" }, "ku": { "name": "چیز", "description": "١٠٠ غرام گۆشت، پەنێری چێدەر، پەتاتەی ڕندەکراو" }, "fa": { "name": "چیز", "description": "۱۰۰ گرم گوشت، پنیر چدار، سیب زمینی رنده شده" } } },
+        { "id": "item_3", "name": "دبل تشيز", "price": 8000, "description": "200 غرام لحم، نوعان من الجبن", "translations": { "en": { "name": "Double Cheese", "description": "200g beef, two types of cheese" }, "ku": { "name": "دبل چیز", "description": "٢٠٠ غرام گۆشت، دوو جۆر پەنێر" }, "fa": { "name": "دبل چیز", "description": "۲۰۰ گرم گوشت، دو نوع پنیر" } } },
+        { "id": "item_4", "name": "سبشل", "price": 8000, "description": "200 غرام لحم، جبن مودزريلا، صلصة خاصة", "translations": { "en": { "name": "Special", "description": "200g beef, mozzarella, special sauce" }, "ku": { "name": "سپێشەڵ", "description": "٢٠٠ غرام گۆشت، مۆزاریلا، سۆسی تایبەتی" }, "fa": { "name": "مخصوص", "description": "۲۰۰ گرم گوشت، موزارلا، سس مخصوص" } } },
+        { "id": "item_5", "name": "مشروم ستيك", "price": 6000, "description": "لحم ستيك، صلصة المشروم، جبن", "translations": { "en": { "name": "Mushroom Steak", "description": "Steak meat, mushroom sauce, cheese" }, "ku": { "name": "مەشڕوم ستێک", "description": "گۆشتی ستێک، سۆسی قارچ، پەنێر" }, "fa": { "name": "قارچ استیک", "description": "گوشت استیک، سس قارچ، پنیر" } } },
+        { "id": "item_6", "name": "داينمت", "price": 7500, "description": "100 غرام لحم، 100 غرام ستيك، نوعان من الجبن", "translations": { "en": { "name": "Dynamite", "description": "100g beef, 100g steak, two types of cheese" }, "ku": { "name": "داینامیت", "description": "١٠٠ غرام گۆشت، ١٠٠ غرام ستێک، دوو جۆر پەنێر" }, "fa": { "name": "دینامیت", "description": "۱۰۰ گرم گوشت، ۱۰۰ گرم استیک، دو نوع پنیر" } } }
+      ]
+    }
+  ]
+}
